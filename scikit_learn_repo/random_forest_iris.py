@@ -60,4 +60,7 @@ plt.ylabel('True label')
 plt.title('Confusion Matrix for Random Forest Model')
 plt.show()
 
+# View the classification report for test data and predictions
+print(classification_report(y_test, y_pred_test))
+
 
